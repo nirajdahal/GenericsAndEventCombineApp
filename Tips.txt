@@ -1,0 +1,4 @@
+We have made list of two objects Person Model and Car Model
+We the used reflection for getting the peroperty name and property value as well and added it to a list 
+We then added the values in a file
+We used event to test bad words entered in our property 
