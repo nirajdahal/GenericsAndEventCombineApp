@@ -9,7 +9,7 @@ namespace Library.DataAccess
     public class DataAccess<T> where T : new()
     {
         public event EventHandler<T> BadWordsDetected;
-        //We are creating generic extension method
+        
         public void SaveToCSV( List<T> items, string filePath) 
         {
             List<string> rows = new List<string>();
